@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+    .card {
+        width: calc(33.333% - 20px); /* Ajusta para três cartões por linha */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* Ajusta para dois cartões por linha */
+    }
+
+    .card-img .imagem.img-batman {
+        content: url("../img/bruce.jpeg"); /* Imagem de exemplo para dispositivos móveis */
+    }
+
+    .card-img .imagem.img-luffy {
+        content: url("../img/gear5.jpg"); /* Outra imagem de exemplo */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); /* Ajusta para um cartão por linha */
+    }
+
+    .card-img .imagem.img-batman {
+        content: url("../img/bruce.jpeg"); /* Imagem de exemplo para dispositivos móveis */
+    }
+
+    .card-img .imagem.img-luffy {
+        content: url("../img/gear5.jpg"); /* Outra imagem de exemplo */
+    }
+}
