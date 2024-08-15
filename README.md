@@ -14,7 +14,7 @@ O objetivo deste desafio é aprimorar suas habilidades de identificação e corr
 - Praticar a correção de problemas que afetam a renderização e a usabilidade das páginas web.
 
 ## Codigo
-
+~~~html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,7 +105,8 @@ O objetivo deste desafio é aprimorar suas habilidades de identificação e corr
      <p>(c) 2024 Galeria de Fotos</p>
  </fotter>
 </body>
-</html> 
+</html>
+~~~
 
 ## Resposta
 
