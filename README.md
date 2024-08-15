@@ -111,10 +111,11 @@ O objetivo deste desafio é aprimorar suas habilidades de identificação e corr
 ## Resposta
 
 ERROS:
-- Linha 8 - font-family: saints; - fonte da letra não reconhecida
-- Linha 14 - background-colored: #f4f4f4; - tag escrita de forma errada
-- Linha 32 - color: #333 - falta ; no final
-- Linha 42 - <!-- <h1> Galeria de Imagens --> - sem fechamento do h1
-- Linha 48 - <!-- <img src="image2.jpg" /> --> - ausência do atributo alt
-- Linha 52 - <footer> - falta fechamento da tag footer
+
+- Linha 8 - `font-family: Arial, sans-serif;` - erro de digitação (`font-famly`)
+- Linha 14 - `background-color: #f4f4f4;` - erro de digitação (`backgroud-color`)
+- Linha 32 - `color: #333;` - falta o ponto e vírgula no final
+- Linha 42 - `<h1>Galeria de Fotos</h1>` - tag `<h1>` não estava fechada corretamente
+- Linha 48 - `<img src="image2.jpg" alt="Imagem 2" />` - ausência do atributo `alt`
+- Linha 52 - `<footer>` - tag `<footer>` não estava fechada corretamente
 
