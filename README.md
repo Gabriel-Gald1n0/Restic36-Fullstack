@@ -114,7 +114,7 @@ ERROS:
 - Linha 8 - font-family: saints; - fonte da letra não reconhecida
 - Linha 14 - background-colored: #f4f4f4; - tag escrita de forma errada
 - Linha 32 - color: #333 - falta ; no final
-- Linha 42 - <h1>Galeria de Imagens - sem fechamento do h1
-- Linha 48 - <img src="image2.jpg" /> - ausência do atributo alt
+- Linha 42 - ~~~html<h1>~~~Galeria de Imagens - sem fechamento do h1
+- Linha 48 - ~~~html <img src="image2.jpg" /> ~~~ - ausência do atributo alt
 - Linha 52 - <footer> - falta fechamento da tag footer
 
