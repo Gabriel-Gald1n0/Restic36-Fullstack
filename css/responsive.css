@@ -1,0 +1,48 @@
+@media (max-width: 780px) {
+    .container {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .login {
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+        padding: 50px 50px;
+    }
+  
+}
+
+@media (max-width: 360px) {
+    .container {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .login {
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+        padding: 50px 50px;
+    }
+
+    .login h2 {
+        font-size: 15px;
+    }
+
+    .login h1 {
+        font-size: 25px;
+    }
+
+    .div-button {
+        width: 80%;
+    }
+
+}
+
