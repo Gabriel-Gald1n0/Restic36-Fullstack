@@ -20,50 +20,33 @@ O objetivo deste desafio é aprimorar suas habilidades de identificação e corr
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <style>
+     <style type="text/css">
      body {
-         font-famly: Arial, sans-serif;
+         font-family: saints;
          margin: 0;
          padding: 0;
      }
 
-     #main-header {
-         backgroud-color: #f4f4f4;
+     header {
+         background-colored: #f4f4f4;
          padding: 20px;
          text-align: center;
      }
 
-     .flex-container {
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
+     img {
+         width: 100px;
+         height: 100px;
+         border: 1px solid #000;
      }
 
-     .flex-item {
-         background-color: #e4e4e4;
-         padding: 15px;
-         margn: 5px;
-     }
-
-     .grid-container {
-         display: grid;
-         grid-template-colums: 1fr 1fr;
-         gap: 20px;
-     }
-
-     .grid-item {
-         background-color: #ccc;
-         padding: 20px;
-     }
-
-     fotter {
+     footer {
          background-color: #f4f4f4;
          text-align: center;
          padding: 10px;
      }
 
      h1 {
-         color: #333;
+         color: #333
      }
 
      p {
@@ -72,38 +55,19 @@ O objetivo deste desafio é aprimorar suas habilidades de identificação e corr
  </style>
 </head>
 <body>
- <header id="main-header">
-     <h1>Galeria de Fotos</h1>
+ <header>
+     <h1>Galeria de Imagens
  </header>
- <main class="flex-container">
-     <section class="flex-item">
-         <h2>Imagens em Flexbox</h2>
-         <img src="image1.jpg" alt="Imagem 1" />
-         <img src="image2.jpg" alt="Imagem 2" />
-         <img src="image3.jpg" alt="Imagem 3" />
+ <main>
+     <section>
+         <h2>Imagens</h2>
+         <img src="image1.jpg" alt="Imagem 1"/>
+         <img src="image2.jpg" />
+         <img src="image3.jpg" alt="Imagem 3"/>
      </section>
-     <section class="grid-container">
-         <div class="grid-item">
-             <img src="image4.jpg" alt="Imagem 4">
-             <p>Descrição da Imagem 4</p>
-         </div>
-         <div class="grid-item">
-             <img src="image5.jpg" alt="Imagem 5">
-             <p>Descrição da Imagem 5</p>
-         </dv>
-         <div class="grid-item">
-             <img src="image6.jpg" alt="Imagem 6">
-             <p>Descrição da Imagem 6</p>
-         </div>
-         <div class="grid-item">
-             <img src="image7.jpg" alt="Imagem 7">
-             <p>Descrição da Imagem 7</p>
-         </div>
  </main>
-     </section>
- <fotter>
-     <p>(c) 2024 Galeria de Fotos</p>
- </fotter>
+ <footer>
+     <p>(c) 2024 Galeria de Imagens</p>
 </body>
 </html>
 ~~~
