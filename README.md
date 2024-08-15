@@ -1,9 +1,9 @@
 # RESTIC36_Desafios
-## **Desafio Relâmpago de HTML e CSS**
+## **Desafio Relâmpago 2 de HTML e CSS**
 
 ## Descrição
 
-Temos um código HTML e CSS com alguns erros que precisam ser corrigidos. O objetivo é encontrar e corrigir os 7 erros presentes no código.
+Temos um segundo código HTML e CSS com alguns erros que precisam ser corrigidos. O objetivo é encontrar e corrigir os 7 erros presentes no código.
 
 ## Objetivo
 
@@ -112,10 +112,15 @@ O objetivo deste desafio é aprimorar suas habilidades de identificação e corr
 
 ERROS:
 
-- Linha 8 - `font-family: Arial, sans-serif;` - erro de digitação (`font-famly`)
-- Linha 14 - `background-color: #f4f4f4;` - erro de digitação (`backgroud-color`)
-- Linha 32 - `color: #333;` - falta o ponto e vírgula no final
-- Linha 42 - `<h1>Galeria de Fotos</h1>` - tag `<h1>` não estava fechada corretamente
-- Linha 48 - `<img src="image2.jpg" alt="Imagem 2" />` - ausência do atributo `alt`
-- Linha 52 - `<footer>` - tag `<footer>` não estava fechada corretamente
+- Linha 8 - `font-famly: Arial, sans-serif;` - erro de digitação (`font-famly`)
+- Linha 14 - `backgroud-color: #f4f4f4;` - erro de digitação (`backgroud-color`)
+- Linha 28 - `margn: 5px;` - erro de digitação (`margn`)
+- Linha 33 - `grid-template-colums: 1fr 1fr;` - erro de digitação (`grid-template-colums`)
+- Linha 42 - `fotter {` - chama a tag escrita errada na linha 87
+- Linha 76 - `</dv>` - tag incorreta (deve ser `</div>`)
+- Linha 86 - `</section>` - tag escrita após o `</main>`
+- Linha 87 - `<fotter>` - erro de digitação (`fotter`)
+
+
+
 
