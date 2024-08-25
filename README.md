@@ -14,3 +14,6 @@ Os projetos realizados aqui pertencem à trilha **FULLSTACK**, com cada desafio 
 
 **Prova:**
 - [U1A1_Q8Login](https://github.com/Gabriel-Gald1n0/Restic36-Fullstack/tree/U1A1_Q8Login)
+
+**Projetos:**
+- [U1P1_weatherApp](https://github.com/Gabriel-Gald1n0/Restic36-Fullstack/tree/U1P1_weatherApp)
