@@ -1,0 +1,200 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../img/background3.jpg') fixed;
+    background-size: cover; 
+    transition: background-image 0.5s ease-in-out;
+    background-position: center; 
+    margin: 0; 
+    overflow: hidden; 
+    box-sizing: border-box; 
+}
+
+.container {
+    position: relative;
+    width: 50%; 
+    max-width: 600px; 
+    height: auto; 
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 16px;
+    padding: 20px;
+    color: black;
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box; 
+    overflow: hidden; 
+}
+
+.container h1 {
+    margin: 0; 
+    margin-bottom: 1rem;
+    word-spacing: 9px;
+    text-align: center;
+    font-size: 2rem; 
+    white-space: nowrap; /* Evita quebra de linha no título */
+    overflow: hidden; /* Garante que o título não ultrapasse o conteiner */
+    text-overflow: ellipsis; /* Adiciona reticências quando o texto é muito longo */
+}
+
+.container > h1 > i.bx {
+    font-size: 24px;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.form i {
+    position: absolute;
+    left: 12px;
+    font-size: 24px;
+}
+
+.form input {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 2px solid rgba(255,255,255,.2);
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px; 
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 48px 0 42px;
+}
+
+.form input::placeholder {
+    color: gray;
+    text-transform: capitalize;
+}
+
+.form button {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: black;
+    padding: 0 40px 0 5px;
+    cursor: pointer;
+}
+
+/* Caixa de clima */
+.weather-box{
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.weather-box.active{
+    display: none;
+}
+
+.weather-box .box {
+    margin-bottom: 50px;
+}
+
+.weather-box img {
+    width: 100%; 
+    max-width: 200px; 
+}
+
+.weather-box .temperature .temp-value {
+    position: relative;
+    font-size: 3rem; 
+    line-height: 1;
+    font-weight: 700;
+    margin: 20px 0 6px;
+}
+
+.weather-box .temperature span {
+    position: absolute;
+    font-size: 1.5rem; 
+    margin-left: 4px;
+}
+
+.weather-box .description {
+    font-size: 1.5rem; 
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Detalhes do clima */
+.weather-details {
+    position: relative; 
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.weather-details .umidade,
+.weather-details .ventos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.weather-details .umidade .umid-value{
+    padding-left: 10px;
+}
+
+.weather-details .ventos {
+    padding-right: 10px;
+}
+
+.weather-details i {
+    font-size: 2.5rem; 
+    margin-right: 5px;
+}
+
+.weather-details span {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Estilo para o traço separador */
+.weather-details .separator {
+    width: 1px;
+    height: 2.5rem; 
+    background-color: #000; 
+}
+
+/* Aviso de erro*/
+.erro-container {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.erro-container.active {
+    display: none;
+}
+
+.erro-container img {
+    width: 100%; 
+    max-width: 200px; 
+}
+
+.erro-container p {
+    font-size: 1rem; 
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+

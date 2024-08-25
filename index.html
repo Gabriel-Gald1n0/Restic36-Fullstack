@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="path/to/favicon.ico">
+    <link rel="icon" href="./src/img/icon.png" type="image/png">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather  F<i class='bx bx-leaf'></i>recast</h1>
+        <div class="form">
+            <i class="bx bxs-map"></i>
+            <input type="text" placeholder="Digite uma Locailização">
+            <button class='bx bx-search-alt'></button>
+        </div>
+
+        <div class="weather-box active">
+            <div class="box">
+                <div class="info">
+                    <div class="weather">
+                        <img src="" alt="imagem do clima">
+                        <p class="temperature"><span class="temp-value"></span> <span>ºC</span>
+                        <p class="description"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-details">
+                <div class="umidade">
+                    <i class='bx bxs-droplet' ></i>
+                    <div class="text">
+                        <div class="info-umidade">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="ventos">
+                    <i class="bx bx-wind"></i>
+                    <div class="text">
+                        <div class="info-vento">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="erro-container active">
+            <img src="./src/img/404.png" alt="imagem de erro">
+            <p class="text-erro"></p>
+        </div>
+    </div>
+    <script type="module" src="dist/app.js"></script>
+</body>
+</html>
