@@ -1,0 +1,7 @@
+# Ignorar o diretório dist e todo o seu conteúdo
+/dist
+/src/ts/config.ts
+# Outros arquivos ou pastas para ignorar
+node_modules/
+*.log
+.env
