@@ -36,7 +36,26 @@ O **Weather App** é uma aplicação web que permite ao usuário consultar infor
 6. **Executar a pagina web:**
 
    Digite `http-server` no terminal e abra o endereço fornecido (exemplo: `http://192.168.1.3:8080`).
+7. **Casos de ERRO:**
 
+   - Um possível erro é a falta de conexão com as APIs. Quando a pasta `dist` for criada (após digitar `tsc`), siga os passos abaixo:
+      1. Navegue até a pasta `dist` e abra o arquivo **app.js**.
+      2. Localize as importações:
+
+      ~~~javascript
+      import { apiKey, apiUrl } from './config';
+      import { updateBackgroundImage } from './imageUtils';
+      ~~~
+      3. Adicione a extensão `.js` ao final dos caminhos das importações:
+
+      ~~~javascript
+      import { apiKey, apiUrl } from './config.js';
+      import { updateBackgroundImage } from './imageUtils.js';
+      ~~~
+      4. Abra também o arquivo **imageUtils.js** e adicione a extensão `.js` ao final das importações:
+
+      ```javascript
+      import { imgApiKey, imgApiUrl } from './config.js';
 ## Tecnologias Utilizadas
 
 - HTML5: Para a estrutura da página.
@@ -59,6 +78,8 @@ O **Weather App** é uma aplicação web que permite ao usuário consultar infor
   - Nascer e Pôr do Sol: Para mostrar os horários de nascer e pôr do sol, proporcionando mais contexto sobre o clima.
 - Resposividade: Melhorar a responsividade e a experiência do usuário em dispositivos móveis.
 - Gráficos: Adicionar gráficos ou representações visuais para dados meteorológicos.
+
+# [PREVIEW WEBSITE](https://new-weather-forecast-app.netlify.app)
 
 ## Resultados
 
