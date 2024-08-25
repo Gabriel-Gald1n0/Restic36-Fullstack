@@ -29,7 +29,7 @@ O **Weather App** é uma aplicação web que permite ao usuário consultar infor
    npm install -g http-server ```
 4. **Pegue a ApiKey:**
 
-   Por motivos de segurança, removi as chaves API utilizadas no projeto. Por isso, insira suas chaves API que você irá cadastrar nos sites [openweathermap](https://openweathermap.org/current) e [pexels](https://www.pexels.com/api/). São seguros e de confiança.
+   Por motivos de segurança, removi as chaves API utilizadas no projeto. Por isso, insira suas chaves API que você irá cadastrar nos sites [OpenWeatherMap](https://openweathermap.org/current) e [Pexels](https://www.pexels.com/api/). São seguros e de confiança.
 5. **Colar Chaves e atualizar o TypeScript:**
 
    Cole as chaves na pasta `/src/ts/config.ts`. Em `apiKey`, cole a chave da OpenWeatherMap e em `imgApiKey`, cole a da Pexels. Após isso, digite `tsc` no terminal para compilar o arquivo .ts.
