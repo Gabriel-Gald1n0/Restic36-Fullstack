@@ -35,7 +35,7 @@ O **Weather App** é uma aplicação web que permite ao usuário consultar infor
    Cole as chaves na pasta `/src/ts/config.ts`. Em `apiKey`, cole a chave da OpenWeatherMap e em `imgApiKey`, cole a da Pexels. Após isso, digite `tsc` no terminal para compilar o arquivo .ts.
 6. **Executar a pagina web:**
 
-   Digite http-server no terminal e la aparecera uma porta ```http://192.168.1.3:8080 ``` para abrir a pagina.
+   Digite `http-server` no terminal e abra o endereço fornecido (exemplo: `http://192.168.1.3:8080`).
 
 ## Tecnologias Utilizadas
 
