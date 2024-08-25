@@ -20,13 +20,13 @@ O **Weather App** é uma aplicação web que permite ao usuário consultar infor
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/username/weather-app.git ```
+   git clone https://github.com/username/weather-app.git
 2. **Navegue até o diretório do projeto:**
    ```bash
-    cd weather-app ```
+    cd weather-app 
 3. **Instale o http-server:**
    ```bash
-   npm install -g http-server ```
+   npm install -g http-server 
 4. **Pegue a ApiKey:**
 
    Por motivos de segurança, removi as chaves API utilizadas no projeto. Por isso, insira suas chaves API que você irá cadastrar nos sites [OpenWeatherMap](https://openweathermap.org/current) e [Pexels](https://www.pexels.com/api/). São seguros e de confiança.
